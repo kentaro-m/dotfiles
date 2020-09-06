@@ -13,4 +13,4 @@ jobs:
         run: chmod +x ./install_homebrew.sh 
 
       - name: Execute scripts
-        run: ./deploy.sh
+        run: chmod +x ./deploy.sh
