@@ -1,0 +1,15 @@
+syntax on
+colorscheme onedark
+set fenc=utf-8
+set noswapfile
+set autoread
+set showcmd
+set cursorline
+set cursorcolumn
+set smartindent
+set showmatch
+set laststatus=2
+set wildmode=list:longest
+set expandtab
+set tabstop=2
+set shiftwidth=2
