@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v1
       
       - name: Install homebrew
-        run: ./install_homebrew.sh 
+        run: chmod +x ./install_homebrew.sh 
 
       - name: Execute scripts
         run: ./deploy.sh
