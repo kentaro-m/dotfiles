@@ -15,4 +15,4 @@ fi
 brew update
 brew upgrade
 brew cask upgrade
-brew bundle
+brew bundle --file 'Brewfile'
