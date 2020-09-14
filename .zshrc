@@ -3,6 +3,9 @@ export PATH="/usr/local/opt/ncurses/bin:$PATH"
 # nodebrew configuration
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 
+# rust configuration
+export PATH=$HOME/.cargo/bin:$PATH
+
 # zplug configuration
 export ZPLUG_HOME=/usr/local/opt/zplug
 source $ZPLUG_HOME/init.zsh

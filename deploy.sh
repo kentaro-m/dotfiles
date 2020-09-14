@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DOTPATH=(eval $pwd)
+DOTPATH=$(cd $(dirname $0); pwd)
 
 for f in .??*
 do
