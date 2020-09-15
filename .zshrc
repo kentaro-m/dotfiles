@@ -1,4 +1,5 @@
-export PATH="/usr/local/opt/ncurses/bin:$PATH"
+# starship init scrips
+eval "$(starship init zsh)"
 
 # nodebrew configuration
 export PATH=$HOME/.nodebrew/current/bin:$PATH
@@ -14,7 +15,6 @@ zplug "zsh-users/zsh-history-substring-search"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug mafredri/zsh-async, from:github
-zplug sindresorhus/pure, use:pure.zsh, from:github, as:theme
 
 if ! zplug check; then
     printf "Install? [y/N]: "
