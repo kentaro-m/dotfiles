@@ -1,0 +1,7 @@
+.config
+.DS_Store
+.aws
+.aws-sam
+.npmrc
+.zsh_history
+.netrc
