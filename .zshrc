@@ -1,4 +1,5 @@
 # starship init scrips
+export STARSHIP_CONFIG=~/.starship/config.toml
 eval "$(starship init zsh)"
 
 # nodebrew configuration

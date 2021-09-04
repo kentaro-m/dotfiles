@@ -10,3 +10,9 @@ symbol = ""
 [directory]
 truncation_length = 10
 truncate_to_repo = false
+
+[nodejs]
+disabled = true
+
+[aws]
+disabled = true
