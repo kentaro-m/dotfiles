@@ -5,3 +5,4 @@
 .npmrc
 .zsh_history
 .netrc
+.zshrc.local
