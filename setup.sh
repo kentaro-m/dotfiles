@@ -9,3 +9,6 @@ do
 
     ln -snfv "$DOTPATH/$f" "$HOME"/"$f"
 done
+
+curl -sS https://starship.rs/install.sh | sh
+curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
